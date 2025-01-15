@@ -1,0 +1,23 @@
+[project]
+name = "lab-oop-8"
+version = "0.1.0"
+description = "Лабораторная работа 8"
+authors = [
+    {name = "Andrey",email = "pustakovandrej@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "3.12.8"
+dependencies = [
+    "isort (>=5.13.2,<6.0.0)",
+    "black (>=24.10.0,<25.0.0)",
+    "flake8 (>=7.1.1,<8.0.0)",
+    "pre-commit (>=4.0.1,<5.0.0)",
+    "mypy (>=1.14.1,<2.0.0)",
+    "pytest (>=8.3.4,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
